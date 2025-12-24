@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Базовая тема приложения -->
+    <style name="Theme.Note" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Твои цвета -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Не задавай android:statusBarColor здесь, или задай transparent -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
